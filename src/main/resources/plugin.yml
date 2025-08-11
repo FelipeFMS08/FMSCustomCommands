@@ -1,0 +1,12 @@
+name: FMSCustomCommands
+version: '0.0.1'
+main: me.felipemessias.dev.CustomCommands.FMSCustomCommands
+api-version: '1.21'
+authors: [ MessiasFMS ]
+commands:
+  greet:
+    description: Sends a greeting to a player.
+    usage: "<red>Error: Use /greet <player></red>"
+  timecheck:
+    description: Shows the current server time.
+    usage: "/timecheck"

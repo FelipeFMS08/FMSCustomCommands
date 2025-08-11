@@ -1,0 +1,23 @@
+# --------------------------------------------------- #
+#      Messages for the CustomCommands Plugin         #
+# --------------------------------------------------- #
+# All messages support MiniMessage format.
+# Global Placeholders:
+# <prefix> - The plugin's message prefix.
+
+# General plugin prefix
+prefix: "<gray>[<gold>CustomCommands</gold>]</gray> "
+
+# General error messages
+errors:
+  player_only: "<prefix><red>This command can only be executed by a player.</red>"
+  player_not_found: "<prefix><red>The player <white><player></white> could not be found or is not online.</red>"
+  invalid_usage: "<prefix><red>Invalid usage. Please use: <yellow><usage></yellow></red>"
+  permission_message: "<prefix><red>You do not have permission to use this command.</red>"
+
+greet:
+  success_sent: "<prefix><green>Greeting sent to <yellow><target></yellow>!</green>"
+  received: "<gold><sender></gold> <gray>says hello to</gray> <aqua><target></aqua><gray>!</gray>"
+
+timecheck:
+  success: "<prefix><aqua>The current server time is: <yellow><bold><time></bold></yellow></aqua>"
